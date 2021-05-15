@@ -1,0 +1,20 @@
+/*
+Color Scheme:
+#7ea573, rgb(126, 165, 115), hsl(107, 22%, 55%)
+#1e1e1e, rgb(30, 30, 30), hsl(0, 0%, 12%)
+#204616, rgb(32, 70, 22), hsl(108, 52%, 18%)
+#fccfcf, rgb(252, 207, 207), hsl(0, 88%, 90%)
+#cc3300, rgb(204, 51, 0), hsl(15, 100%, 40%)
+*/
+
+/*Elements*/
+body {
+    margin: 0;
+    padding: 0;
+}
+/*Classes*/
+.foreground {
+    min-height: 400px;
+    background: transparent;
+}
+/*IDs*/
