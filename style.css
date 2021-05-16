@@ -14,7 +14,58 @@ body {
 }
 /*Classes*/
 .foreground {
-    min-height: 400px;
-    background: transparent;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.left-box {
+    width: 50%;
+    float:left;
+    font-size: 16pt;
+}
+.left-box > p{
+    font-family: 'Inconsolata', monospace;
+}
+.right-box {
+    float: left;
+    width: 50%;
 }
 /*IDs*/
+#title {
+    height: 400px;
+}
+#title > h1 {
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    top: 25%;
+    left: 37%;
+    color: #1e1e1e;
+    font-size: 50pt;
+    font-family: 'Inconsolata', monospace;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+#title > img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#about-me {
+    background: #7ea573;
+    height: 450px;
+}
+#about-me > h1{
+    color: #1e1e1e;
+    margin: 0;
+    font-size: 20pt;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+#about-me > h3{
+    margin: 0;
+    font-size: 28pt;
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+}
