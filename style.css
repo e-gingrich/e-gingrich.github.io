@@ -12,46 +12,100 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /*Classes*/
-.foreground {
-    padding-top: 50px;
-    padding-bottom: 50px;
+.main-banner {
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 25px;
     padding-right: 25px;
+}
+.bottom-banner {
+    padding: 10px;
 }
 .left-box {
     width: 50%;
     float:left;
-    font-size: 16pt;
 }
 .left-box > p{
     font-family: 'Inconsolata', monospace;
+    font-size: 16pt;
+}
+.left-box > ol {
+    margin: auto;
+    font-size: 14pt;
 }
 .right-box {
     float: left;
     width: 50%;
 }
+.right-box > ol {
+    margin: auto;
+    font-size: 14pt;
+}
+.desc-left {
+    float: left;
+    width: 5%;
+    height: 100%;
+}
+.desc-center-top {
+    float: left;
+    height: 40%;
+    width: 90%;
+}
+.desc-center-top > p {
+    padding-left: 10px;
+    text-align: center;
+}
+.desc-center-bottom {
+    float: left;
+    height: 40%;
+    width: 90%;
+}
+.desc-right {
+    float: right;
+    width: 5%;
+    height: 100%;
+}
+.desc-title {
+    float: right;
+    width: 90%;
+}
+.desc-title > h1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 50pt;
+}
+.arrow-button {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /*IDs*/
+/* TITLE */
 #title {
     height: 400px;
+    background-image: url("./background/DEDFA447-C909-491D-B143-6074AB78B41B.JPG");
+    background-size: cover;
+    background-position: center;
 }
 #title > h1 {
     margin: 0;
-    padding: 0;
-    position:absolute;
-    top: 25%;
-    left: 37%;
+    position: relative;
+    text-align: center;
+    top: 30%;
     color: #1e1e1e;
-    font-size: 50pt;
+    font-size: 100pt;
     font-family: 'Inconsolata', monospace;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
-#title > img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-}
-
+/* ABOUT ME */
 #about-me {
     background: #7ea573;
     height: 450px;
@@ -68,4 +122,22 @@ body {
     font-size: 28pt;
     font-family: 'Homemade Apple', cursive;
     text-align: center;
+}
+/* BELIEF STATEMENTS */
+#belief-statements {
+    background: #7ea573;
+    height: 450px;
+}
+/* BELIEF DESCRIPTION */
+#belief-desc {
+    font-family: 'Inconsolata', monospace;
+}
+/* BELIEF LIST */
+#belief-list {
+    font-family: 'Inconsolata', monospace;
+}
+/* PROFFESIONAL DOCUMENTS */
+#prof-documents {
+    background: #7ea573;
+    height: 450px;
 }
