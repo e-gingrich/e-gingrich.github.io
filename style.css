@@ -32,7 +32,7 @@ body {
     font-size: 16pt;
 }
 .left-box > ol {
-    margin: auto;
+    margin: 10px;
     font-size: 14pt;
 }
 .right-box {
@@ -40,36 +40,11 @@ body {
     width: 50%;
 }
 .right-box > ol {
-    margin: auto;
+    margin: 10px;
     font-size: 14pt;
 }
-.desc-left {
-    float: left;
-    width: 5%;
-    height: 100%;
-}
-.desc-center-top {
-    float: left;
-    height: 40%;
-    width: 90%;
-}
-.desc-center-top > p {
-    padding-left: 10px;
-    text-align: center;
-}
-.desc-center-bottom {
-    float: left;
-    height: 40%;
-    width: 90%;
-}
-.desc-right {
-    float: right;
-    width: 5%;
-    height: 100%;
-}
 .desc-title {
-    float: right;
-    width: 90%;
+    width: 100%;
 }
 .desc-title > h1 {
     width: 100%;
@@ -79,12 +54,8 @@ body {
     font-family: 'Inconsolata', monospace;
     font-size: 50pt;
 }
-.arrow-button {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
+.carousel .carousel-item {
+    height: 370px;
 }
 
 /*IDs*/
@@ -131,10 +102,19 @@ body {
 /* BELIEF DESCRIPTION */
 #belief-desc {
     font-family: 'Inconsolata', monospace;
+    text-align: center;
+    word-wrap: break-word;
+    height: 20%;
+    width: 70%;
 }
 /* BELIEF LIST */
 #belief-list {
     font-family: 'Inconsolata', monospace;
+    position: relative;
+    left: 15%;
+    top: 10%;
+    height: 60%;
+    width: 70%;
 }
 /* PROFFESIONAL DOCUMENTS */
 #prof-documents {

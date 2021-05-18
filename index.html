@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Inconsolata:wght@300&family=Kristi&family=Reenie+Beanie&display=swap');
-        </style>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+        <style>@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Inconsolata:wght@300&family=Kristi&family=Reenie+Beanie&display=swap');</style>
+
         <link rel="stylesheet" href="style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="parallax.js-1.5.0/parallax.js"></script>
@@ -37,38 +43,61 @@
 
         <div id="belief-statements">
             <!-- Show beliefs, then go into a preview slide show with links to pages on specfic beliefs -->
-            <div class="desc-right">
-                <button type="button" class="arrow-button">Arrow Here</button>
-            </div>
-            <div class="desc-left">
-                <button type="button" class="arrow-button">Arrow Here</button>
-            </div>
             <div class="desc-title">
                 <h1>My Teaching Beliefs</h1>
             </div>
-            <div class="desc-center-top" id="belief-desc">
-                <p>Summary goes here...</p>
-            </div>
-            <div class="desc-center-bottom" id="belief-list">
-                <div class="left-box">
-                    <ol>
-                        <li>I believe educators have responsibility to differentiate instructional approaches and assessment types.</li>
-                        <li>I believe in failure as an integral part of learning opportunities.</li>
-                        <li>I believe that the most important qualities of a great educator are inclusion, empathy, and advocacy.</li>
-                        <li>I believe students of all ages are able to comprehend complex social constructs and should have the oppurtunity to do so.</li>
-                        <li>I believe the classroom is just one element to a child's learning environment.</li>
-                    </ol>
+
+
+
+
+
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="right-box">
-                    <ol start="6">
-                        <li>I believe quality educators have a commitment to research to improve </li>
-                        <li>I believe-------------------</li>
-                        <li>I believe-------------------</li>
-                        <li>I believe-------------------</li>
-                        <li>I believe-------------------</li>
-                    </ol>
-                </div>      
-            </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="desc-center-top" id="belief-desc">
+                        <p>Summary goes here... HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHfdaljfl;aksdjlk;fja;lsdjkfjla;sd;fjlasdjkl;f;jklasdl;kjfljk;asdj;lf;ljkasd;ljflj;kasdjl;kfa;sjldkfjl;asd;lkf;ljkasd;lkjf;lajksdf</p>
+                    </div>
+                    <div class="desc-center-bottom" id="belief-list">
+                        <div class="left-box">
+                            <ol>
+                                <li>I believe educators have responsibility to differentiate instructional approaches and assessment types.</li>
+                                <li>I believe in failure as an integral part of learning opportunities.</li>
+                                <li>I believe that the most important qualities of a great educator are inclusion, empathy, and advocacy.</li>
+                                <li>I believe students of all ages are able to comprehend complex social constructs and should have the oppurtunity to do so.</li>
+                                <li>I believe the classroom is just one element to a child's learning environment.</li>
+                            </ol>
+                        </div>
+                        <div class="right-box">
+                            <ol start="6">
+                                <li>I believe quality educators have a commitment to research to improve </li>
+                                <li>I believe-------------------</li>
+                                <li>I believe-------------------</li>
+                                <li>I believe-------------------</li>
+                                <li>I believe-------------------</li>
+                            </ol>
+                        </div>      
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                  </div>
+                  <div class="carousel-item">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </div>
 
         <!-- Pic of Ellie teaching again -->
@@ -81,6 +110,6 @@
         </div>
 
         <!--<div class="parallax-container" data-parallax="scroll" data-image-src="./background/IMG-0874.JPG" style="height: 500px;"></div>-->
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     </body>
 </html>
